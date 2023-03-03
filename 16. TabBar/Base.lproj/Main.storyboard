@@ -18,7 +18,7 @@
                         <viewLayoutGuide key="safeArea" id="FyO-HI-XFy"/>
                         <color key="backgroundColor" red="0.7391188346247074" green="1" blue="0.73357853302711185" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="RPr-1U-fC9"/>
+                    <tabBarItem key="tabBarItem" title="Item 2" image="bed.double" catalog="system" id="RPr-1U-fC9"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PRK-Jz-ySf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -34,7 +34,7 @@
                         <viewLayoutGuide key="safeArea" id="4UE-zG-a8X"/>
                         <color key="backgroundColor" red="1" green="0.66646389216474355" blue="0.45872023817686325" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="OFn-7q-4SY"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="car" catalog="system" id="OFn-7q-4SY"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RtC-HB-Vbl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -50,7 +50,7 @@
                         <viewLayoutGuide key="safeArea" id="FK9-Io-S36"/>
                         <color key="backgroundColor" red="1" green="0.79112128441743679" blue="0.85008107514994702" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="KaU-gy-JlZ"/>
+                    <tabBarItem key="tabBarItem" title="Item 1" image="airplane.departure" catalog="system" id="KaU-gy-JlZ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gNw-dA-ckg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -76,4 +76,9 @@
             <point key="canvasLocation" x="-1667" y="-105"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="airplane.departure" catalog="system" width="128" height="84"/>
+        <image name="bed.double" catalog="system" width="128" height="82"/>
+        <image name="car" catalog="system" width="128" height="95"/>
+    </resources>
 </document>
