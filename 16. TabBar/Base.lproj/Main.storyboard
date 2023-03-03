@@ -11,7 +11,7 @@
         <!--Item 2-->
         <scene sceneID="jtF-1l-Xz9">
             <objects>
-                <viewController id="ujP-2F-sKP" sceneMemberID="viewController">
+                <viewController id="ujP-2F-sKP" customClass="Tela02" customModule="_6__TabBar" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FUz-Lr-Kvx">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -22,12 +22,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PRK-Jz-ySf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-760" y="197"/>
+            <point key="canvasLocation" x="-22" y="-411"/>
         </scene>
         <!--Item-->
         <scene sceneID="FVd-vV-jg4">
             <objects>
-                <viewController id="hKh-YR-3Db" sceneMemberID="viewController">
+                <viewController id="hKh-YR-3Db" customClass="Tela03" customModule="_6__TabBar" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="j1O-88-DYJ">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -38,12 +38,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RtC-HB-Vbl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="70" y="-93"/>
+            <point key="canvasLocation" x="702" y="-411"/>
         </scene>
         <!--Item 1-->
         <scene sceneID="QaF-2P-Ccu">
             <objects>
-                <viewController id="eU1-xn-0UG" sceneMemberID="viewController">
+                <viewController id="eU1-xn-0UG" customClass="Tela01" customModule="_6__TabBar" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Gou-fR-29g">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -59,7 +59,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="uHa-gi-Sgg">
             <objects>
-                <tabBarController id="cVW-xZ-ZIt" sceneMemberID="viewController">
+                <tabBarController id="cVW-xZ-ZIt" customClass="TabBarController" customModule="_6__TabBar" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="jBQ-eb-1SB">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -73,7 +73,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W8S-rn-4NV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1667" y="-105"/>
+            <point key="canvasLocation" x="-1654" y="-411"/>
         </scene>
     </scenes>
     <resources>
